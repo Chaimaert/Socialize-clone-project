@@ -13,7 +13,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1876f2;
+    background: #b5838d;
     padding: 5px 5%;
     position: sticky;
     top: 0;
@@ -129,7 +129,7 @@ nav{
 }
 
 .ip-links a:last-child{
-    color: #1876f2;
+    color: #b5838d;
 }
 
 .ip-links{
@@ -162,7 +162,7 @@ nav{
 
 .sb-title a{
     text-decoration: none;
-    color: #1876f2;
+    color: #b5838d;
     font-size: 12px;
 }
 
@@ -191,7 +191,7 @@ nav{
 .event a{
     font-size: 12px;
     text-decoration: none;
-    color: #1876f2;
+    color: #b5838d;
 }
 
 .left-event span{
@@ -199,7 +199,7 @@ nav{
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #1876f2;
+    background: #b5838d;
     color: #fff;
     font-size: 10px;
     padding: 4px 0;
@@ -243,7 +243,7 @@ nav{
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
-    background-image: url(img/status-1.png);
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(img/status-1.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -255,7 +255,7 @@ nav{
     border-radius: 50%;
     top: 10px;
     left: 10px;
-    border-radius: 5px solid #626262;
+    border: 5px solid #b5838d;
 }
 
 .story p{
@@ -263,4 +263,147 @@ nav{
     bottom: 10px;
     width: 100%;
     text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.story1{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(img/status-1.png);
+}
+.story2{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(img/status-2.png);
+}
+.story3{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(img/status-3.png);
+}
+.story4{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(img/status-4.png);
+}
+.story5{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(img/status-5.png);
+}
+.story.story1 img{
+    top: unset;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    border: 0;
+    width: 33px;
+}
+
+.write-post-container{
+    width: 100%;
+    border-radius: 6px;
+    background: #fff;
+    padding: 20px;
+    color: #626262;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+.user-profile img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-profile p{
+    margin-bottom: -1px;
+    font-weight: 500;
+    color: #626262;
+}
+.user-profile small{
+    font-size: 12px;
+}
+
+.post-input-container{
+    padding-left: 55px;
+    padding-top: 20px;
+}
+.post-input-container textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+.add-post-links{
+    display: flex;
+    margin-top: 10px;
+}
+.add-post-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+.add-post-links a img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.post-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+
+.user-profile span{
+    font-size: 13px;
+    color: #9a9a9a;
+}
+.post-text{
+    margin-top: 11px;
+    color: #9a9a9a;
+    font-size: 15px;
+}
+.post-text a{
+    text-decoration: none;
+    color: #b5838d;
+}
+
+.post-img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-icons div img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.activity-icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.post-profile-icon{
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icon img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.post-row a{
+    color: #b5838d;
+    
 }
