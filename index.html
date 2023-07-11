@@ -9,6 +9,7 @@
 </head>
 <body>
 
+    <!-- *********************************** navbar *****************************************-->
     <nav>
         <div class="nav-left">
             <img class="logo" src="img/logo.png">
@@ -19,13 +20,60 @@
             </ul>
         </div>
         <div class="nav-right">
+
                 <div class="search-box">
                     <img src="img/search.png">
                     <input type="text" placeholder="Search">
                 </div>
-                <div class="nav-user-icon online">
+
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
                     <img src="img/profile-pic.png">
                 </div>
+        </div>
+    <!-- *********************************** settings menu *****************************************-->
+        
+        <div class="user-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="user-menu-inner">
+                <div class="user-profile">
+                    <img src="img/profile-pic.png">
+                    <div>
+                        <p> Chaimae Rouita </p>
+                        <a href="#"> See your Profile </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/feedback.png">
+                    <div>
+                        <p> Give Feedback </p>
+                        <a href="#"> Help us to improve the new design </a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="img/setting.png" class="settings-icon">
+                    <a href="#"> Settings & Privacy  <img src="img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/help.png" class="settings-icon">
+                    <a href="#"> Help & Support <img src="img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/setting.png" class="settings-icon">
+                    <a href="#"> Display & Accessibility  <img src="img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/logout.png" class="settings-icon">
+                    <a href="#"> Logout  <img src="img/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
         </div>
     </nav>
 
@@ -87,7 +135,7 @@
                 <div class="user-profile">
                     <img src="img/profile-pic.png">
                     <div>
-                        <p> John White</p>
+                        <p> Chaimae Rouita </p>
                         <small> Public <i class="fa-sharp fa-solid fa-caret-down"></i> </small>
                     </div>
                 </div>
@@ -108,7 +156,7 @@
                     <div class="user-profile">
                         <img src="img/profile-pic.png">
                         <div>
-                            <p> John White</p>
+                            <p> Chaimae Rouita </p>
                             <span>June 21 2023, 16:10 pm </span>
                         </div>
                     </div>
@@ -135,14 +183,14 @@
                     <div class="user-profile">
                         <img src="img/profile-pic.png">
                         <div>
-                            <p> John White</p>
+                            <p> Chaimae Rouita </p>
                             <span>June 19 2023, 13:22 pm </span>
                         </div>
                     </div>
                     <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
                 </div>
 
-                <p class="post-text"> Having good time with friends at the beach </p>
+                <p class="post-text"> having a pleaseant time with cousins at the beach </p>
                 <img  class="post-img" src="img/feed-image-2.png">
 
                 <div class="post-row">
@@ -158,9 +206,95 @@
             </div>
 
 
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-pic.png">
+                        <div>
+                            <p> Chaimae Rouita </p>
+                            <span>June 19 2023, 13:22 pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+
+                <p class="post-text"> enjoying New York city  </p>
+                <img  class="post-img" src="img/feed-image-3.png">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img2/thumbs-up.png"> 150 </div>
+                        <div><img src="img/comments.png"> 33 </div>
+                        <div><img src="img/share.png"> 10 </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-pic.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-pic.png">
+                        <div>
+                            <p> Chaimae Rouita </p>
+                            <span>June 19 2023, 13:22 pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+
+                <p class="post-text"> Wishing you all  a great morning </p>
+                <img  class="post-img" src="img/feed-image-4.png">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img2/thumbs-up.png"> 212 </div>
+                        <div><img src="img/comments.png"> 20 </div>
+                        <div><img src="img/share.png"> 15 </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-pic.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/profile-pic.png">
+                        <div>
+                            <p> Chaimae Rouita </p>
+                            <span>June 19 2023, 13:22 pm </span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+
+                <p class="post-text"> Having a meeting </p>
+                <img  class="post-img" src="img/feed-image-5.png">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img2/thumbs-up.png"> 212 </div>
+                        <div><img src="img/comments.png"> 20 </div>
+                        <div><img src="img/share.png"> 15 </div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/profile-pic.png"><i class="fa-sharp fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <button type="button" class="Load-btn"> Load More </button>
+
+
         </div>
 
         <!-- *********************************** right sidebar *****************************************-->
+
         <div class="right-sidebar">
             <div class="sb-title">
                 <h4>Events</h4>
@@ -227,6 +361,14 @@
 
         </div>
     </div>
+
+        <!-- *********************************** footer *****************************************-->
+
+    <div class="footer">
+        <p> Copyright 2023 -  Socialize </p>
+    </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
